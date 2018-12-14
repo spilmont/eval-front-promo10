@@ -189,8 +189,8 @@ $('.profil').click(function () {
             height: '200px',
         });
         $(this).html('<div class="categorie profil orange"> <span class="far fa-address-card"></span>Profil </div>');
-        $(".categorie").show();
-        $("#name").show();
+        $(".categorie").show(200);
+        $("#name").show(200);
 
     }
 });
@@ -214,8 +214,7 @@ $('.contact').click(function () {
             height: '200px',
         });
         $(".categorie").show();
-        $("#name").show();
-
+        $  ("#name").show();
     }
 });
 
