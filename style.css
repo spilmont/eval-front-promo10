@@ -1,0 +1,86 @@
+#main-box{
+    width: 1000px;
+    height:600px;
+    border: solid #D0D0D0 10px;
+    display: flex;
+    color: white;
+}
+#cat-div{
+width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#name{
+    width: 400px;
+    height: 200px;
+    background-color: #35BC7A;
+    ;
+}
+.categorie{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+.far, .fas, .fab{
+    font-size:4em;
+}
+.orange{
+    background-color: #FF9E00;
+}
+.blue{
+    background-color: #1E8BC4;
+}
+.rouge{
+    background-color: #F15A49;
+}
+.vert{
+    background-color: #35BC7A;
+}
+.Orange{
+    background-color: #F86925;
+}
+.carousel{
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+h1{
+    padding-left: 4%;
+}
+p{
+    padding-left: 4%;
+}
+
+.G{
+   font-size: 2em;
+
+}
+.G:hover{
+    font-size:4em ;
+    color: #cb000e;
+}
+.D{
+    font-size: 2em;
+}
+.D:hover{
+    font-size:4em ;
+    color: #cb000e;
+}
+.categorie:hover{
+    color: purple;
+}
+#name:hover{
+    color: purple;
+}
