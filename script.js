@@ -27,7 +27,7 @@ $('.G').click(function () {
         $('.carousel').css("background-image", "url(" + carousel[index] + ")");
     } else {
         index = carousel.length - 1;
-        $('.carousel').css("background-image", "url(" + carousel[2] + ")");
+        $('.carousel').css("background-image", "url(" + carousel[carousel.length-1] + ")");
     }
     console.log(index);
 });
@@ -250,6 +250,8 @@ $('.portfolio').click(function () {
         $("#name").hide();
         $(".categorie").hide();
         $(this).show();
+        $(this).html('<a href="https://spilmont.github.io/Memory-js-ameliore/index.html"><img src="#" alt="memory"></a>' +
+            '<a href="https://spilmont-andre.000webhostapp.com/countdown/index.html"><img src="#" alt="countdown"></a>')
 
     } else {
         click = 0;
