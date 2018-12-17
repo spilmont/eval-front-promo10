@@ -259,6 +259,7 @@ $('.portfolio').click(function () {
             width: '200px',
             height: '200px',
         });
+        $(this).html('<div class="categorie portfolio Orange"><span class="fab fa-dropbox"></span>Portfolio</div>');
         $(".categorie").show();
         $("#name").show();
 
